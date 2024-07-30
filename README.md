@@ -1,16 +1,27 @@
-# course_project-_hospital
-Курсовой проект по объектно-ориентированному программированию
-Выполнен на Qt6 осенью 2021
-Приложение для ведения учета в больнице
+# Course-project-hospital
+Educational course project on object-oriented programming  
+Written in Qt6  
+This is an app for keeping records in a hospital.
 
-во время выполнения курсовой работы еще не были изучены базы данных (так что сделанно местами не совсем правильно, но все корректно работает)
-по базам данных смотреть отдельные работы (репозиторий database engineering)
+Default credentials:  
+```
+login admin
+password 0000
+```
+The administrator can change the password, create doctor accounts, delete and leave any records.  
+Doctors can decide to delete only their own records.  
+Doctors can attract patients, order various assessments  
+It is possible to view incidence statistics by month/region  
 
-При запуске вход с аккаунта админа
-логин admin
-пароль 0000
+## Screenshots
+Auth  
+![auth](resources/1-auth.png)
 
-Админ может поменять пароль, создавать аккаунты врачей, удалять и редактировать любые записи
-Врачи могут редактировать и удалять только свои записи.
-Врачи могут добавлять пациентов, назначать им различные обследования
-Есть возможность просмотра статистики заболеваемости по месяцам/районам
+Registration  
+![registration](resources/2-reg.png)
+
+Main page  
+![main page](resources/3-main-table.png)
+
+Statistics
+![statistics](resources/4-stat.png)
